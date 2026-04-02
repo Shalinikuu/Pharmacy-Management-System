@@ -104,7 +104,7 @@ python pharmacy_m.py
 ## 🙌 Author
 
 Your Name
-GitHub: https://github.com/your-username
+GitHub: https://github.com/Shalinikuu
 
 ---
 
