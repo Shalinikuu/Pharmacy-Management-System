@@ -1,67 +1,113 @@
-# Pharmacy-Management-System
-A Pharmacy Management System to manage medicine inventory, billing, and sales records efficiently using a database-driven approach.
+# 🏥 Pharmacy Management System
 
-## 📌 Overview
-The **Pharmacy Management System** is a database-driven application designed to automate and manage daily pharmacy operations efficiently. The system helps in handling medicine inventory, billing, and sales records, reducing manual effort and minimizing errors. It provides a structured and user-friendly way to maintain pharmacy data and improve operational accuracy.
-
-This project was developed as part of an academic project to demonstrate practical implementation of database management, programming logic, and system design concepts.
-
----
-
-## 🎯 Objectives
-- To automate pharmacy inventory management
-- To maintain accurate records of medicines and sales
-- To reduce manual errors in billing and data handling
-- To improve efficiency and data organization in pharmacy operations
+A desktop-based Pharmacy Management System built using Python, Tkinter (GUI), and SQLite. This application helps manage medicines, stock, billing, suppliers, customers, and reports efficiently.
 
 ---
 
 ## 🚀 Features
-- Medicine inventory management  
-- Add, update, and delete medicine records  
-- Stock tracking and availability monitoring  
-- Automated billing system  
-- Sales record maintenance  
-- Database-driven data storage  
-- User-friendly interface  
+
+* 💊 Medicine Management (Add, Update, Delete)
+* 📦 Stock Management (Purchase & Inventory Update)
+* 🧾 Billing System (Generate Bills)
+* 🧑‍🤝‍🧑 Customer Management
+* 🚚 Supplier Management
+* 📊 Reports & Analytics:
+
+  * Low Stock Alert
+  * Sales Report
+  * Expired Medicines
+  * Top Selling Items
 
 ---
 
 ## 🛠️ Technologies Used
-- **Programming Language:** Python / Java / C  
-- **Database:** MySQL / SQLite  
-- **Tools:** Git, GitHub  
-- **Operating System:** Windows / Linux  
 
-*(Update this section according to your actual tech stack)*
+* Python 3
+* Tkinter (GUI)
+* SQLite (Database)
 
 ---
 
 ## 📂 Project Structure
-Pharmacy-Management-System/
-│
-├── src/ # Source code files
-├── database/ # Database files (.sql / .db)
-├── screenshots/ # Project screenshots
-├── README.md # Project documentation
-└── requirements.txt # Dependencies (if applicable)
 
+pharmacy_m.py       # Main application file
+pharmacy.db         # Pre-built database file
+README.md           # Project documentation
 
 ---
 
-## ⚙️ How to Run the Project
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/Pharmacy-Management-System.git
-2. Navigate to the project directory: cd Pharmacy-Management-System
-3. Set up the database (if required):
-   -Import the provided SQL file into MySQL
-   -OR ensure the SQLite database file is present
-4. Run the main program file using your preferred IDE or terminal.
-   🧠 Concepts Used
+## ⚙️ Installation & Setup
 
-## Database Management System (DBMS)
-CRUD Operations
-File Handling / Database Connectivity
-Basic Software Engineering Principles
+### 1. Clone the repository
 
+git clone https://github.com/your-username/pharmacy-management-system.git
+
+### 2. Navigate to project folder
+
+cd pharmacy-management-system
+
+### 3. Run the application
+
+python pharmacy_m.py
+
+---
+
+## ▶️ How to Use
+
+1. Run the application
+2. If database already exists, data will be loaded automatically
+3. Add or manage:
+
+   * Medicines
+   * Suppliers
+   * Customers
+4. Update stock using Stock Management
+5. Generate bills using Billing System
+6. View reports for analysis
+
+---
+
+## 🗄️ Database Info
+
+* The project includes a pre-built pharmacy.db file
+
+* Tables included:
+
+  * medicines
+  * suppliers
+  * customers
+  * sales
+  * sale_items
+  * purchases
+
+* If deleted, it will be recreated automatically on next run
+
+---
+
+## ⚠️ Notes
+
+* Ensure Python is installed
+* GUI runs using Tkinter (comes pre-installed with Python)
+* Enter valid numeric values for price, quantity, etc.
+
+---
+
+## 🔮 Future Improvements
+
+* User Authentication (Login System)
+* Bill Print / PDF Export
+* Search & Filter Features
+* UI Enhancements
+
+---
+
+## 🙌 Author
+
+Your Name
+GitHub: https://github.com/your-username
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
