@@ -103,7 +103,7 @@ python pharmacy_m.py
 
 ## 🙌 Author
 
-Your Name
+Shalini Kushwaha
 GitHub: https://github.com/Shalinikuu
 
 ---
