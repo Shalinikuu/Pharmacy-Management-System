@@ -4,7 +4,7 @@ A desktop-based Pharmacy Management System built using Python, Tkinter (GUI), an
 
 ---
 
-## 🚀 Features
+## 🚀 Featurres
 
 * 💊 Medicine Management (Add, Update, Delete)
 * 📦 Stock Management (Purchase & Inventory Update)
